@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lawn Service</title>
+    <title>GreenLeaf Lawn Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Welcome to Lawn Service</h1>
-    <p>Your trusted partner for lawn care and maintenance.</p>
+    <header>
+        <h1>GreenLeaf Lawn Care</h1>
+        <p>Your local expert in lawn maintenance and care.</p>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Lawn Mowing</li>
+            <li>Fertilization</li>
+            <li>Weed Control</li>
+            <li>Seasonal Clean-up</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="response"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 GreenLeaf Lawn Care. All rights reserved.</p>
+    </footer>
 </body>
 </html>
